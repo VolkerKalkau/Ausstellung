@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoausstellung</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gabriola', serif;
+            color: black;
+            background: url('Hintergrund_02.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        #menu-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        #menu {
+            position: absolute;
+            top: 60px;
+            left: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu li {
+            margin: 5px 0;
+        }
+
+        #menu li ul {
+            margin-left: 20px;
+        }
+
+        #menu a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #menu a:hover {
+            text-decoration: underline;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: right;
+            font-weight: normal;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 60px;
+            font-weight: normal;
+            line-height: 1.2;
+        }
+
+        .header-text h2 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: normal;
+            line-height: 1.2;
+        }
+
+        .content {
+            margin: 300px 20px 20px;
+            font-size: 24px;
+            line-height: 1.0;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer img {
+            height: 100px;
+        }
+
+        .footer div {
+            text-align: left;
+        }
+
+        .footer span {
+            display: block;
+            line-height: 1.2;
+        }
+    </style>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</head>
+<body>
+    <button id="menu-button" onclick="toggleMenu()">Menü</button>
+    <nav id="menu">
+        <ul>
+            <li><a href="kuenstler.html">Der Künstler</a>
+                <ul>
+                    <li><a href="persoenliches.html">Persönliches</a></li>
+                    <li><a href="fotografie.html">Fotografie</a></li>
+                    <li><a href="digitale_fotografie.html">Digitale Fotografie</a></li>
+                    <li><a href="vorlieben.html">Vorlieben</a></li>
+                </ul>
+            </li>
+            <li><a href="ausstellung.html">Die Ausstellung</a>
+                <ul>
+                    <li><a href="daten.html">Daten</a></li>
+                    <li><a href="themen.html">Themen</a></li>
+                    <li><a href="techniken.html">Techniken</a></li>
+                    <li><a href="kuenstliche_intelligenz.html">Künstliche Intelligenz</a></li>
+                </ul>
+            </li>
+            <li><a href="fachvortraege.html">Fachvorträge</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <h1>Fotoausstellung</h1>
+        <h2>Natur</h2>
+        <h2>Landschaft</h2>
+        <h2>Burgen und Schlösser</h2>
+    </div>
+    <div class="content">
+        <p>Hier beginnt der Haupttext der Startseite...</p>
+        <p>Zusätzliche Informationen zur Fotoausstellung können hier ergänzt werden.</p>
+    </div>
+    <div class="footer">
+        <div>
+            <span>Öffnungszeiten, Mai bis Oktober</span>
+            <span>Di-Do 14.00-17.00 Uhr, Sa 13.00-17.00 Uhr</span>
+        </div>
+        <img src="Museumsverein.png" alt="Museumsverein Logo">
+    </div>
+</body>
+</html>
