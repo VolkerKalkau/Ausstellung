@@ -74,6 +74,10 @@ body {
     margin-top: 200px;  /* Passe diesen Wert nach Bedarf an */
 }
 
+.impressum .content {
+    margin-top: 80px;  /* Passe diesen Wert nach Bedarf an */
+}
+
 .header-text {
     position: absolute;
     top: 20px;
@@ -94,6 +98,13 @@ body {
     margin: 0;
     font-size: 20px;
     font-weight: normal;
+    line-height: 1.4;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
     line-height: 1.4;
 }
 
