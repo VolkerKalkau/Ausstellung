@@ -4,115 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotoausstellung</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Times New Roman', serif;
-            color: black;
-            background: url('Hintergrund_02.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-        #menu-button {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-size: 20px;
-        }
-
-        #menu {
-            position: absolute;
-            top: 60px;
-            left: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 10px;
-            border-radius: 5px;
-            display: none;
-        }
-
-        #menu ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        #menu li {
-            margin: 15px 0;
-        }
-
-        #menu li ul {
-            margin-left: 20px;
-        }
-
-        #menu a {
-            text-decoration: underline;
-            color: black;
-        }
-
-        #menu a:hover {
-            text-decoration: underline;
-        }
-
-        .header-text {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            text-align: right;
-            font-weight: normal;
-        }
-
-        .header-text h1 {
-            margin: 0;
-            font-size: 30px;
-            font-weight: normal;
-            line-height: 1.4;
-        }
-
-        .header-text h2 {
-            margin: 0;
-            font-size: 20px;
-            font-weight: normal;
-            line-height: 1.4;
-        }
-
-        .content {
-            margin: 300px 20px 20px;
-            font-size: 20px;
-            line-height: 1.2;
-        }
-
-        .content p {
-            margin-bottom: 15px;
-        }
-
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 100px 20px 20px;
-            font-size: 15px;
-            flex-wrap: wrap;
-        }
-
-        .footer img {
-            height: 80px;
-        }
-
-        .footer div {
-            text-align: left;
-        }
-
-        .footer span {
-            display: block;
-            line-height: 1.2;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
     <script>
         function toggleMenu() {
             const menu = document.getElementById('menu');
@@ -142,6 +34,7 @@
             </li>
             <li><a href="fachvortraege.html">Fachvorträge</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </nav>
     <div class="header-text">
@@ -151,7 +44,7 @@
         <h2>Burgen und Schlösser</h2>
     </div>
     <div class="content">
-        <p>Willkommen auf der Internetseite, der Fotoausstellung im Gestütsmseum Offenhausen</p>
+        <p>Willkommen auf der Internetseite, der Fotoausstellung im Gestütsmuseum Offenhausen</p>
     </div>
     <div class="footer">
         <div>
