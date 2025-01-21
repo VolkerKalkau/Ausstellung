@@ -27,6 +27,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     display: none;
+	z-index: 10; /* Setzt das Menü in den Vordergrund */
 }
 
 #menu ul {
@@ -79,6 +80,7 @@ body {
     right: 20px;
     text-align: right;
     font-weight: normal;
+	z-index: 1; /* Bringt den Text hinter das Menü */
 }
 
 .header-text h1 {
