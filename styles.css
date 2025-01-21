@@ -61,8 +61,20 @@ body {
     text-decoration: underline;
 }
 
-.kuenstler-digitale-fotografie .content {
+.main .content {
+    margin-top: 300px;  /* Passe diesen Wert nach Bedarf an */
+}
+
+.persoenliches .content {
     margin-top: 150px;  /* Passe diesen Wert nach Bedarf an */
+}
+
+.fotografie .content {
+    margin-top: 150px;  /* Passe diesen Wert nach Bedarf an */
+}
+
+.digitale_fotografie .content {
+    margin-top: 120px;  /* Passe diesen Wert nach Bedarf an */
 }
 
 .header-text {
