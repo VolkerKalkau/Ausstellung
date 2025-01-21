@@ -61,20 +61,16 @@ body {
     text-decoration: underline;
 }
 
-.main .content {
-    margin-top: 300px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.persoenliches .content {
-    margin-top: 150px;  /* Passe diesen Wert nach Bedarf an */
+.digitale_fotografie .content {
+    margin-top: 120px;  /* Passe diesen Wert nach Bedarf an */
 }
 
 .fotografie .content {
-    margin-top: 150px;  /* Passe diesen Wert nach Bedarf an */
+    margin-top: 200px;  /* Passe diesen Wert nach Bedarf an */
 }
 
-.digitale_fotografie .content {
-    margin-top: 120px;  /* Passe diesen Wert nach Bedarf an */
+.persoenliches .content {
+    margin-top: 200px;  /* Passe diesen Wert nach Bedarf an */
 }
 
 .header-text {
@@ -100,7 +96,7 @@ body {
 }
 
 .content {
-    margin: 200px 20px 20px;
+    margin: 300px 20px 20px;
     font-size: 20px;
     line-height: 1.2;
 }
