@@ -75,7 +75,7 @@ body {
 }
 
 .impressum .content {
-    margin-top: 80vh;  /* Passe diesen Wert nach Bedarf an */
+    padding-top: 80px;  /* Passe diesen Wert nach Bedarf an */
 }
 
 .header-text {
