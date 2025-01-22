@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fachvorträge</title>
+    <!-- Externe CSS-Datei einbinden -->
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</head>
+<body class="fachvortraege">
+    <button id="menu-button" onclick="toggleMenu()">Menü</button>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Der Künstler
+                <ul>
+                    <li><a href="persoenliches.html">Persönliches</a></li>
+                    <li><a href="fotografie.html">Fotografie</a></li>
+                    <li><a href="digitale_fotografie.html">Digitale Fotografie</a></li>
+                </ul>
+            </li>
+            <li>Die Ausstellung
+                <ul>
+                    <li><a href="allgemein.html">Allgemein</a></li>
+                    <li><a href="themen.html">Themen</a></li>
+                    <li><a href="ki.html">Künstliche Intelligenz</a></li>
+                </ul>
+            </li>
+            <li><a href="fachvortraege.html">Fachvorträge</a></li>
+            <li><a href="preise.html">Preise</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <h1>Fachvorträge</h1>
+    </div>
+    <div class="content">
+        <h3>Der Goldene Schnitt</h3>       
+        <p>Mathematische Grundlagen<br>       
+           Der Goldene Schnitt in der Natur<br>
+           Der Goldene Schnitt in der Kunst und Fotografie</p>
+        <p>Der Vortrag findet am Freitag 11.07.2025 um 20 Uhr in der Ausstellung statt<br>
+           Referent Volker Kalkau</p>       
+        <h3>Mondfotografie</h3>       
+        <p>Wie Plant man Mondfotografie und was muss man beachten?<br>       
+           Was braucht man für Ausrüstung für Mondfotografie?<br>
+           Vorstellung der App Photopills</p>
+        <p>Der Vortrag findet am Freitag 11.07.2025 um 20 Uhr in der Ausstellung statt<br>
+           Referent Volker Kalkau</p>       
+        <h3>Bildinterpretation und Analyse</h3>       
+        <p>Unterschiedliche Perspektiven der Bildinterpretation<br>
+           Schwerpunkt theologische Perspektive<br>
+		   Erläuterung an einigen Beispielen</p>		   
+        <p>Der Vortrag findet am Freitag 25.07.2025 um 20 Uhr in der Ausstellung statt<br>
+           Referent Volker Kalkau</p>
+        <h3>Der Eintritt zu den Vorträgen ist frei.<br>Es wird um eine Spende gebeten.<h3>
+    </div>
+</body>
+</html>
