@@ -37,20 +37,20 @@ body {
 }
 
 #menu li {
-    margin: 0 0 5px 0;  /* Kleineren Abstand zwischen Hauptpunkten und Unterpunkten */
+    margin: 0 0 5px; /* Kleineren Abstand zwischen Hauptpunkten und Unterpunkten */
 }
 
 #menu li > ul {
-    margin-top: 2px;  /* Sehr kleiner Abstand zwischen Hauptpunkt und erstem Unterpunkt */
-    padding-left: 20px;  /* Einrücken der Unterpunkte */
+    margin-top: 2px; /* Sehr kleiner Abstand zwischen Hauptpunkt und erstem Unterpunkt */
+    padding-left: 20px; /* Einrücken der Unterpunkte */
 }
 
 #menu li > ul li {
-    margin: 3px 0;  /* Kleinere Abstände zwischen den Unterpunkten */
+    margin: 3px 0; /* Kleinere Abstände zwischen den Unterpunkten */
 }
 
 #menu li > ul li:last-child {
-    margin-bottom: 15px;  /* Größerer Abstand nach dem letzten Unterpunkt */
+    margin-bottom: 15px; /* Größerer Abstand nach dem letzten Unterpunkt */
 }
 
 #menu a {
@@ -58,44 +58,22 @@ body {
     color: black;
 }
 
-#menu a:hover {
-    text-decoration: underline;
-}
-
-.digitale_fotografie .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.fotografie .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
+.digitale_fotografie .content,
+.fotografie .content,
+.allgemein .content,
+.themen .content,
+.ki .content,
+.kontakt .content,
+.impressum .content {
+    margin-top: 140px; /* Passe diesen Wert nach Bedarf an */
 }
 
 .persoenliches .content {
-    margin-top: 200px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.allgemein .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.themen .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.ki .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
+    margin-top: 200px; /* Passe diesen Wert nach Bedarf an */
 }
 
 .fachvortraege .content {
-    margin-top: 100px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.kontakt .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
-}
-
-.impressum .content {
-    margin-top: 140px;  /* Passe diesen Wert nach Bedarf an */
+    margin-top: 100px; /* Passe diesen Wert nach Bedarf an */
 }
 
 .header-text {
@@ -136,6 +114,7 @@ h3 {
 
 .content p {
     margin-bottom: 15px;
+	margin-top: 5px;
 }
 
 .footer {
@@ -165,7 +144,7 @@ h3 {
         max-width: 560px;
         margin: 0 auto;
         font-size: 24px; /* Größere Schrift für Desktop */
-		background-size: 30%; /* Bild wird auf 80% der Breite skaliert */
+        background-size: 30%; /* Bild wird auf 80% der Breite skaliert */
         background-position: center 20%; /* Horizontale Zentrierung und vertikale Verschiebung nach unten */
     }
 
@@ -184,9 +163,7 @@ h3 {
     .content, .footer {
         font-size: 24px; /* Erhöhte Schriftgröße für den Hauptinhalt und Footer */
     }
-}
 
-@media screen and (min-width: 1024px) {
     #menu-button {
         left: 700px; /* Schiebt den Button weiter in die Mitte */
     }
