@@ -99,6 +99,18 @@ body {
     line-height: 1.4;
 }
 
+ul {
+    list-style-position: outside; /* Punkte außerhalb des Textes */
+    padding-left: 20px; /* Platz für die Punkte schaffen */
+	margin-top: 5px; /* Optional: Genereller Abstand */
+}
+
+li {
+    text-indent: 0; /* Kein negativer Einzug */
+    line-height: 1.2; /* Erhöhte Lesbarkeit */
+    margin-bottom: 5px; /* Abstand zwischen den Listenelementen */	
+}
+
 h3 {
     margin: 0;
     font-size: 20px;
