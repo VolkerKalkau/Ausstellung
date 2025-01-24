@@ -64,6 +64,7 @@ body {
 .themen .content,
 .ki .content,
 .kontakt .content,
+.preise .content,
 .impressum .content {
     margin-top: 140px; /* Passe diesen Wert nach Bedarf an */
 }
