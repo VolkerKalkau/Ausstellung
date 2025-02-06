@@ -168,6 +168,23 @@ h3 {
     line-height: 1.2;
 }
 
+/* Workaround für iOS-Geräte */
+@supports (-webkit-overflow-scrolling: touch) {
+    body {
+        background-attachment: scroll;  /* Verhindert das Problem auf iOS */
+    }
+    .content {
+        background: url('Hintergrund_02.jpg') no-repeat center center;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Damit der Inhalt immer oben bleibt */
+    }
+}
+
 /* Desktop Anpassungen */
 @media screen and (min-width: 600px) {
 
