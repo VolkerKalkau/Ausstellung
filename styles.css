@@ -221,7 +221,7 @@ h3 {
     /* Footer-Position für das Bild */
     .footer img {
         position: absolute;
-        left: 500px; /* Abstand vom linken Rand */
+        left: 300px; /* Abstand vom linken Rand */
         bottom: 20px;
         height: 80px;
     }
@@ -231,6 +231,6 @@ h3 {
     }
 	
 	.footer span {
-        font-size: 18px; /* Größere Schriftgröße für die Texte im Footer */
+        font-size: 20px; /* Größere Schriftgröße für die Texte im Footer */
     }
 }
