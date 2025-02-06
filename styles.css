@@ -59,6 +59,19 @@ body {
     color: black;
 }
 
+/* Tabellenüberschrift und Zellen */
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+	font-size: 12px;
+}
+
+/* Hintergrundfarbe für die Tabellenüberschrift */
+table th {
+    background-color: #f2f2f2;
+}
+
 .digitale_fotografie .content,
 .fotografie .content,
 .allgemein .content,
@@ -170,6 +183,19 @@ h3 {
 	#menu li {
         font-size: 20px; /* Schriftgröße für die Hauptmenüpunkte (z.B. Der Künstler, Die Ausstellung) */
     }
+
+	/* Tabellenüberschrift und Zellen */
+	table th, table td {
+		padding: 10px;
+		text-align: center;
+		border: 1px solid #ddd;
+		font-size: 22px;
+	}
+
+	/* Hintergrundfarbe für die Tabellenüberschrift */
+	table th {
+		background-color: #f2f2f2;
+	}
 	
 	.preise .content,
 	.fachvortraege .content {
