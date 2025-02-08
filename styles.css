@@ -184,7 +184,7 @@ h3 {
 
     /* Hintergrundanpassung für das Pseudoelement */
     body::before {
-        background-size: 700px;  /* Skaliert das Hintergrundbild */
+        background-size: auto 100vh;  /* Skaliert das Hintergrundbild */
         background-position: left top;  /* Positioniert das Bild links oben */
     }
 	
@@ -228,7 +228,7 @@ h3 {
 	}
 	
     .content {
-        max-width: 600px; /* Maximale Breite für den Textbereich */
+        max-width: 500px; /* Maximale Breite für den Textbereich */
         margin-left: 20;
         margin-right: 0;
 		font-size: 24px;
@@ -239,7 +239,7 @@ h3 {
         position: absolute;
         top: 20px;
         left: 20px;
-        width: 600px;
+        width: 500px;
         text-align: right;
         z-index: 100; /* Header bleibt hinter dem Menü */
     }
