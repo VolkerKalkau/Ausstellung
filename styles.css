@@ -3,8 +3,19 @@ body {
     padding: 0;
     font-family: 'Times New Roman', serif;
     color: black;
-    background: url('Hintergrund_02.jpg') no-repeat center center fixed;
+}
+
+/* Fixiertes Pseudoelement für den Hintergrund */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('Hintergrund_02.jpg') no-repeat center center;
     background-size: cover;
+    z-index: -1; /* Hinter den Inhalten positionieren */
 }
 
 #menu-button {
@@ -171,8 +182,9 @@ h3 {
 /* Desktop Anpassungen */
 @media screen and (min-width: 600px) {
 
-    body {
-        background-size: 660px;  /* Skaliert das Hintergrundbild auf 70% der ursprünglichen Größe */
+    /* Hintergrundanpassung für das Pseudoelement */
+    body::before {
+        background-size: 660px;  /* Skaliert das Hintergrundbild */
         background-position: left top;  /* Positioniert das Bild links oben */
     }
 	
