@@ -14,7 +14,7 @@ body::before {
     right: 0;
     bottom: 0;
     background: url('Hintergrund_02.jpg') no-repeat center center;
-    background-size: auto 100vh;
+    background-size: cover;
     z-index: -1; /* Hinter den Inhalten positionieren */
 }
 
