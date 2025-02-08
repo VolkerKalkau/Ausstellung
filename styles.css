@@ -184,7 +184,7 @@ h3 {
 
     /* Hintergrundanpassung für das Pseudoelement */
     body::before {
-        background-size: 660px;  /* Skaliert das Hintergrundbild */
+        background-size: 700px;  /* Skaliert das Hintergrundbild */
         background-position: left top;  /* Positioniert das Bild links oben */
     }
 	
