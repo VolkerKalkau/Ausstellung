@@ -18,6 +18,19 @@ body::before {
     z-index: -1; /* Hinter den Inhalten positionieren */
 }
 
+body.index::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('Hintergrund_03.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1; /* Hinter den Inhalten positionieren */	
+}
+
+
 #menu-button {
     position: absolute;
     top: 20px;
@@ -184,6 +197,11 @@ h3 {
 
     /* Hintergrundanpassung für das Pseudoelement */
     body::before {
+        background-size: auto 100vh;  /* Skaliert das Hintergrundbild */
+        background-position: left top;  /* Positioniert das Bild links oben */
+    }
+
+    body.index::before {
         background-size: auto 100vh;  /* Skaliert das Hintergrundbild */
         background-position: left top;  /* Positioniert das Bild links oben */
     }
