@@ -176,7 +176,8 @@ h3 {
     align-items: center;
     margin: 30px 20px 20px;
     font-size: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;  /* Verhindert den Zeilenumbruch */
+    flex-direction: row; /* Stellt sicher, dass die Elemente nebeneinander bleiben */
 }
 
 .footer img {
